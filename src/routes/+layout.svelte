@@ -59,9 +59,9 @@
 <body>
 
     <div class="topnav">
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
+      <a href="/home">Home</a>
+      <a href="#">Games</a>
+      <a href="#">About Us</a>
     </div>
     
     <div class="content">
