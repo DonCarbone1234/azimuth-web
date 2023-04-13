@@ -1,3 +1,4 @@
+
 <style>
     * {
       box-sizing: border-box;
@@ -37,11 +38,12 @@
       color: #FAE6FA;
       padding: 10px;
       object-fit: fill;
+      height: fit-content;
       /*
       max-width:100%;  
       overflow-x: scroll;
       */
-    }
+    } 
     
     /* Style the footer */
     .footer {
@@ -65,12 +67,14 @@
     </div>
     
     <div class="content">
-      <h2>CSS Template</h2>
-      <p>A topnav, content and a footer.</p>
+     <slot>
+        
+     </slot>
     </div>
+   
     
     <div class="footer">
       <p>Footer</p>
     </div>
-    
+  
     </body>
