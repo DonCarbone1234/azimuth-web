@@ -4,8 +4,8 @@
   --yellow: rgb(253, 216, 53);
   --blue: rgb(98, 0, 234);
   
-  --c1: rgb(38, 70, 83);
-  --c2: rgb(42, 157, 143);
+  --c1: rgb(251, 32, 255);
+  --c2: rgb(235, 138, 255);
   
   --left-color: var(--c1);
   --right-color: var(--c2);
@@ -45,7 +45,7 @@ body {
 }
 
 #left-side .title {  
-  color: white;  
+  color: #d394ff;  
 }
 
 #left-side .fancy {
@@ -61,57 +61,7 @@ body {
 }
 
 #right-side .fancy {
-  color: white;
-}
-
-/* -- YouTube Link Styles -- */
-
-#source-link {
-  top: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-#yt-link {  
-  top: 10px;
-}
-
-#yt-link > i {
-  color: rgb(239, 83, 80);
-}
-
-.meta-link {
-  align-items: center;
-  backdrop-filter: blur(3px);
-  background-color: rgba(40, 40, 40, 0.9);
-  border-radius: 6px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;  
-  display: inline-flex;
-  gap: 5px;
-  left: 10px;
-  padding: 10px 20px;
-  position: fixed;
-  text-decoration: none;
-  transition: background-color 350ms, border-color 350ms;
-  z-index: 10000;
-}
-
-.meta-link:hover {
-  background-color: rgb(40, 40, 40);
-}
-
-.meta-link > i, .meta-link > span {
-  height: 20px;
-  line-height: 20px;
-}
-
-.meta-link > span {
-  color: white;
-  font-family: "Rubik", sans-serif;
-  transition: color 600ms;
+  color: #d394ff;
 }
 </style>
 
@@ -125,7 +75,7 @@ const handleMove = e => {
 document.onmousemove = e => handleMove(e);
 
 document.ontouchmove = e => handleMove(e.touches[0]);
-    </script>
+</script>
     
     <!-- svelte-ignore a11y-missing-attribute -->
     <html lang="en" >
@@ -142,29 +92,17 @@ document.ontouchmove = e => handleMove(e.touches[0]);
 <div class = content>
 <div id="left-side" class="side">
   <h2 class="title">
-    Sometimes a simple header is 
-    <span class="fancy">better</span>      
+    Streaming Games 
+    <span class="fancy">made easy</span>      
   </h2>
 </div>
 <div id="right-side" class="side">
   <h2 class="title">
-    Sometimes a simple header is  
-    <span class="fancy">better</span>     
+    Streaming Games  
+    <span class="fancy">made easy</span>     
   </h2>
 </div>
 
-<a id="source-link" class="meta-link" href="https://superlist.com" target="_blank">
-  <i class="fa-solid fa-link"></i>
-  <span class="roboto-mono">Source</span>
-</a>
 
-<a id="yt-link" class="meta-link" href="https://youtu.be/zGKNMm4L-r4" target="_blank">
-  <i class="fa-brands fa-youtube"></i>
-  <span>2 min tutorial</span>
-</a>
-<!-- partial -->
-  <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script><script  src="./script.js"></script>
-
-</div>
 </body>
 </html>
