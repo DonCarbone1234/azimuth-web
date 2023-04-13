@@ -65,23 +65,13 @@ body {
 }
 </style>
 
-<script>
-    const left = document.getElementById("left-side");
 
-const handleMove = e => {
-  left.style.width = `${e.clientX / window.innerWidth * 100}%`;
-}
-
-document.onmousemove = e => handleMove(e);
-
-document.ontouchmove = e => handleMove(e.touches[0]);
-</script>
     
     <!-- svelte-ignore a11y-missing-attribute -->
     <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Super Header Slider</title>
+  <title>Home</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
@@ -106,3 +96,16 @@ document.ontouchmove = e => handleMove(e.touches[0]);
 
 </body>
 </html>
+
+
+<script>
+    const left = document.getElementById("left-side");
+ 
+ const handleMove = e => {
+   left.style.width = `${e.clientX / window.innerWidth * 100}%`;
+ }
+ 
+ document.onmousemove = e => handleMove(e);
+ 
+ document.ontouchmove = e => handleMove(e.touches[0]); 
+ </script>
