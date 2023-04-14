@@ -35,7 +35,7 @@
     /* Style the content */
     .content {
       background-color: #3c0052;
-      color: #FAE6FA;
+      color: #3c0052;
       padding: 10px;
       object-fit: fill;
       height: fit-content;
@@ -49,12 +49,12 @@
     .footer {
       background-color: #240032;
       color: #FAE6FA;
-      padding: 1px;
-      position: fixed;
-      left: 0;
-      bottom: 0;
+      padding: 0px;
       width: 100%;
-      text-align: center;
+      text-align:center;
+      border-top: solid 1px #FAE6FA;
+      padding-bottom: 1px;
+      font-size: 25px;
     }
     </style>
 
@@ -71,10 +71,11 @@
         
      </slot>
     </div>
+    
    
     
     <div class="footer">
-      <p>Footer</p>
+      <p>azimuth</p>
     </div>
   
     </body>
