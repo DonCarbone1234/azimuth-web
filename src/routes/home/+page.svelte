@@ -36,8 +36,9 @@
                     <span class="fancy">made easy</span>
                 </h2>
             </div>
-        </div></body
-    >
+        </div>
+        </body>
+    
 </html>
 
 <style>
@@ -56,6 +57,8 @@
     body {
         background-color: var(--dark);
         margin: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .side {
