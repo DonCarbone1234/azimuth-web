@@ -51,8 +51,8 @@
     .testflex {
       display: flex;
       align-items: center;
-      background-color: #283780;
-      background-image: url(https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/bgDarkBlue.svg);
+      background-color: #4d526a;
+      background-image: url(blue4small.svg);
       background-size: cover;
       background-attachment: fixed;
      /* background-repeat: no-repeat; */
@@ -77,7 +77,7 @@
 
     .flexbox2 {
     background-color: #1e1e1e;
-    background-image: url(https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/bgGray.svg);
+    background-image: url(whitemini1.svg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -91,8 +91,13 @@
     
     }
 
-    .middlebox1 {
+    .topmiddlebox1 {
         text-align: center;
+    }
+
+    .middlebox1 {
+        padding-top: 50px;
+        padding-bottom: 100px;
     }
 
     .whitetextbackground {
@@ -104,7 +109,42 @@
         width: 100%;
     }
 
+    .majorwhite {
+        color: #111;
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+    }
 
+    .minorwhite {
+        color: #111;
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .leftbox1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-content: center;
+    }
+
+    .image1 {
+        padding-right: 50px;
+    }
+
+    .image2 {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .rightbox1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-content: center;
+        
+    }
 
     </style>
     
@@ -143,16 +183,31 @@
             <div class="whitetextbackground">
 
                 <div class="middlebox1">
-                    <h1>How does Azimuth work?</h1>
-                    <p>placeholder text</p>
+                    <div class="topmiddlebox1">
+                        <h1> <span class="majorwhite">How does Azimuth work?</span></h1>
+                    </div>
+                    <p><span class="minorwhite">placeholder text</span></p>
                 </div>
 
                 <div class="leftbox1">
-
+                    <div class = "image1">
+                        <img src = "blackplaceholder.png" alt = "placeholder">
+                    </div>
+                    <div class="topleftbox1">
+                        <h1> <span class="majorwhite">placeholder</span></h1>
+                        <p><span class="minorwhite"> placeholder text</span></p>
+                    </div>
+                    
                 </div>
             
                 <div class="rightbox1">
-
+                    <div class="toprightbox1">
+                        <h1> <span class="majorwhite">placeholder</span></h1>
+                        <p><span class="minorwhite"> placeholder text</span></p>
+                    </div>
+                    <div class = "image2">
+                        <img src = "blackplaceholder.png" alt = "placeholder">
+                    </div>
                 </div>
             </div>
         </div>
