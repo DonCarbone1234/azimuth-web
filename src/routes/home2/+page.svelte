@@ -146,6 +146,38 @@
         
     }
 
+    .orangetextbox {
+    background-color: #111;
+    background-image: url(https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/bgOrange.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 120px 0px;
+    z-index: 5;
+    }
+
+    .orangedescription {
+    
+    }
+
+    .orangebackground {
+        background-color: #ff9b01;
+        padding: 50px 60px;
+        max-width: 650px;
+        width: 80%;
+    }
+
+    .footer {
+        width: 100%;
+        height: fit-content;
+        background-color:rebeccapurple;
+    }
+
     </style>
     
     
@@ -161,11 +193,11 @@
         <div class="testflex">
             <div class= "textbackground">
                 <div class="toptext1">
-                 <p>
-                <span class="minor">Welcome to</span>
-                <br>
-                <span class="major">Azimuth</span>
-                 </p>
+                    <p>
+                        <span class="minor">Welcome to</span>
+                        <br>
+                        <span class="major">Azimuth</span>
+                    </p>
     
               </div>
     
@@ -211,8 +243,31 @@
                 </div>
             </div>
         </div>
-    
-    </body>
 
-   
+        <div class="orangetextbox">
+
+            <div class="orangebackground">
+
+                <div class="orangetitle">
+                    <p>
+                        <span class="major">Placeholder</span>
+                    </p>
+                </div>
+                   
+                <div class="orangedescription">
+                     <p style="color: white; font-size: 30px; font-wieght: normal;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
     
+        <div class="footer">
+            <div class="footercontent">
+                <p>azimuth</p>
+            </div>
+        </div>
+
+    </body>
