@@ -55,8 +55,6 @@
       background-image: url(blue4small.svg);
       background-size: cover;
       background-attachment: fixed;
-     /* background-repeat: no-repeat; */
-     /* background-position: center; */
       align-content: center;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -173,9 +171,20 @@
     }
 
     .footer {
+        display: flex;
         width: 100%;
         height: fit-content;
-        background-color:rebeccapurple;
+        background-color:#240032ff;
+        align-items: center;
+        flex-direction: column;  
+        border-top-style: solid;
+        border-top-color: #d394ff;
+        overflow: hidden;
+    }
+
+    .footercontent {
+        font-size: 20px;
+        color:#d394ff;
     }
 
     </style>
@@ -185,7 +194,7 @@
         <div class="topnav">
             <a href="/home">Home</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="#">Games</a>
+            <a href="/browserlaunch">Browsers</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="#">About Us</a>
         </div>
@@ -208,6 +217,61 @@
                  </div>
     
             </div>
+        </div>
+
+        <div class="flexbox2">
+
+            <div class="whitetextbackground">
+
+                <div class="middlebox1">
+                    <div class="topmiddlebox1">
+                        <h1> <span class="majorwhite">How does Azimuth work?</span></h1>
+                    </div>
+                    <p><span class="minorwhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+                </div>
+
+                <div class="leftbox1">
+                    <div class = "image1">
+                        <img src = "blackplaceholder.png" alt = "placeholder">
+                    </div>
+                    <div class="topleftbox1">
+                        <h1> <span class="majorwhite">placeholder</span></h1>
+                        <p><span class="minorwhite"> placeholder text</span></p>
+                    </div>
+                    
+                </div>
+            
+                <div class="rightbox1">
+                    <div class="toprightbox1">
+                        <h1> <span class="majorwhite">placeholder</span></h1>
+                        <p><span class="minorwhite"> placeholder text</span></p>
+                    </div>
+                    <div class = "image2">
+                        <img src = "blackplaceholder.png" alt = "placeholder">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="orangetextbox">
+
+            <div class="orangebackground">
+
+                <div class="orangetitle">
+                    <p>
+                        <span class="major">Placeholder</span>
+                    </p>
+                </div>
+                   
+                <div class="orangedescription">
+                     <p style="color: white; font-size: 30px; font-wieght: normal;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
+            </div>
+
         </div>
 
         <div class="flexbox2">
@@ -244,30 +308,11 @@
             </div>
         </div>
 
-        <div class="orangetextbox">
-
-            <div class="orangebackground">
-
-                <div class="orangetitle">
-                    <p>
-                        <span class="major">Placeholder</span>
-                    </p>
-                </div>
-                   
-                <div class="orangedescription">
-                     <p style="color: white; font-size: 30px; font-wieght: normal;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
     
         <div class="footer">
-            <div class="footercontent">
-                <p>azimuth</p>
-            </div>
+            
+                <p><span class="footercontent">azimuth</span></p>
+            
         </div>
 
     </body>
