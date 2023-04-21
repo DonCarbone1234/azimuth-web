@@ -47,7 +47,7 @@
         font-family: monospace;
         margin: 0;
     }
-    
+
     .testflex {
       display: flex;
       align-items: center;
@@ -63,15 +63,12 @@
     }
     
     .textbackground {
-        background-color: #4d526a;
+        background-color: #383e59ff;
         padding: 50px 60px;
         max-width: 650px;
         width: 80%;
+        border-radius: 25px;
     }
-
-
-
-
 
     .flexbox2 {
     background-color: #1e1e1e;
@@ -105,6 +102,7 @@
         width: 80%;
         max-width: 1100px;
         width: 100%;
+        border-radius: 25px;
     }
 
     .majorwhite {
@@ -146,7 +144,7 @@
 
     .orangetextbox {
     background-color: #111;
-    background-image: url(https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/bgOrange.svg);
+    background-image: url(orange-1-mini.svg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -158,16 +156,13 @@
     padding: 120px 0px;
     z-index: 5;
     }
-
-    .orangedescription {
     
-    }
-
     .orangebackground {
         background-color: #ff9b01;
         padding: 50px 60px;
         max-width: 650px;
         width: 80%;
+        border-radius: 25px;
     }
 
     .footer {
@@ -191,10 +186,13 @@
     
     
     <body>
+
+        <title>Home</title>
+
         <div class="topnav">
-            <a href="/home">Home</a>
+            <a href="/home2">Home</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="/browserlaunch">Browsers</a>
+            <a href="/browsers">Browsers</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="#">About Us</a>
         </div>
@@ -316,3 +314,5 @@
         </div>
 
     </body>
+
+
