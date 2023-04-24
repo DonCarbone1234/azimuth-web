@@ -66,14 +66,14 @@
     }
 
     .minor {
-      font-size: 75px;
+      font-size: 90px;
       font-weight: normal;
       font-family: monospace;
       color: white;
     }
     
     .major {
-      font-size: 100px;
+      font-size: 110px;
       font-weight: 700px;
       font-family: monospace;
       color: white;
@@ -85,6 +85,97 @@
 
     .topmiddletext {
         text-align: center;
+    }
+
+    .flexbox2 {
+    background-color: #1e1e1e;
+    background-image: url(whitemini1.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 120px 0px;
+    z-index: 5;
+    
+    }
+
+    .topmiddlebox1 {
+        text-align: center;
+    }
+
+    .middlebox1 {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .whitetextbackground {
+        background-color: #eee;
+        padding: 50px 60px;
+        max-width: 650px;
+        width: 80%;
+        max-width: 1100px;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .majorwhite {
+        color: #111;
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .majormajorwhite{
+        color: #111;
+        font-size: 90px;
+        font-weight: 7000;
+        text-align: center;
+    }
+
+    .minorwhite {
+        color: #111;
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .leftbox1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-content: center;
+    }
+
+    .image1 {
+        padding-right: 50px;
+    }
+
+    .image2 {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .rightbox1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-content: center;
+        
+    }
+
+    .resizeimage{
+        max-width: 400px;
+        max-height: auto;
+        border-radius: 25px;
+    }
+
+    .milesresizeimage{
+        max-width: auto;
+        max-height: 400px;
+        border-radius: 25px;
     }
 
 </style>
@@ -118,6 +209,65 @@
         </div>
 
     </div>
+
+    <div class="flexbox2">
+
+        <div class="whitetextbackground">
+
+            <div class="middlebox1">
+                <div class="topmiddlebox1">
+                    <h1> <span class="majormajorwhite">Meet the members</span></h1>
+                </div>
+                <p><span class="minorwhite"></span></p>
+            </div>
+
+            <div class="leftbox1">
+                <div class = "image1">
+                    <img class ="resizeimage" src = "blackplaceholder.png" alt = "placeholder">
+                </div>
+                <div class="topleftbox1">
+                    <h1> <span class="majorwhite">Jeremy</span></h1>
+                    <p><span class="minorwhite"> Website Developer</span></p>
+                </div>
+                
+            </div>
+        
+            <div class="rightbox1">
+                <div class="toprightbox1">
+                    <h1> <span class="majorwhite">Nicholas</span></h1>
+                    <p><span class="minorwhite"> Lead Backend Developer <br> Architect</span></p>
+                </div>
+                <div class = "image2">
+                    <img class ="resizeimage" src = "blackplaceholder.png" alt = "placeholder">
+                </div>
+            </div>
+
+            
+            <div class="leftbox1">
+                <div class = "image1">
+                    <img class ="milesresizeimage" src = "skinwalkermiles.png" alt = "A picture of Miles but he looks like a skinwalker">
+                </div>
+                <div class="topleftbox1">
+                    <h1> <span class="majorwhite">Miles</span></h1>
+                    <p><span class="minorwhite"> Assistant Developer <br> Assistant Architect</span></p>
+                </div>
+                
+            </div>
+
+            <div class="rightbox1">
+                <div class="toprightbox1">
+                    <h1> <span class="majorwhite">Ben</span></h1>
+                    <p><span class="minorwhite"> Marketing <br> Quality Assurance</span></p>
+                </div>
+                <div class = "image2">
+                    <img class ="resizeimage" src = "benwithcat.png" alt = "A picture of Ben with his cat">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
       
     <div class="footer">
