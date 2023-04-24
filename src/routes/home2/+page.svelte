@@ -156,7 +156,7 @@
     padding: 120px 0px;
     z-index: 5;
     }
-    
+
     .orangebackground {
         background-color: #ff9b01;
         padding: 50px 60px;
@@ -194,7 +194,7 @@
             <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="/browsers">Browsers</a>
             <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="#">About Us</a>
+            <a href="/aboutus">About Us</a>
         </div>
     
         <div class="testflex">
