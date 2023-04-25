@@ -1,5 +1,5 @@
 <style>
-    /* Style the top navigation bar */
+    
     .topnav {
       overflow: hidden;
       background-color: #333;
