@@ -112,6 +112,7 @@
         line-height: 50px;
         padding-bottom: 15px;
         transition-duration: 0.5s;
+        cursor: pointer;
     }
 
     .chrome:hover{
@@ -127,6 +128,7 @@
         line-height: 50px;
         padding-bottom: 15px;
         transition-duration: 0.5s;
+        cursor: pointer;
     }
 
     .edge:hover{
@@ -142,6 +144,7 @@
         line-height: 50px;
         padding-bottom: 15px;
         transition-duration: 0.5s;
+        cursor: pointer;
     }
 
     .firefox:hover{
@@ -157,6 +160,7 @@
         line-height: 50px;
         padding-bottom: 15px;
         transition-duration: 0.5s;
+        cursor: pointer;
     }
 
     .brave:hover {
@@ -172,6 +176,7 @@
         line-height: 50px;
         padding-bottom: 15px;
         transition-duration: 0.5s;
+        cursor: pointer;
     }
 
     .tor:hover{
@@ -187,6 +192,7 @@
         line-height: 50px;
         padding-bottom: 15px;
         transition-duration: 0.5s;
+        cursor: pointer;
     }
 
     .retroarch:hover {
@@ -195,6 +201,12 @@
     }
 
 </style>
+
+<script lang="ts">
+    function routeTo(loc) {
+        window.location.href = loc;
+    }
+</script>
 
 <body>
 
@@ -220,42 +232,44 @@
         
             <div class="browserboxes">
 
-                <div class="chrome">
-                    <a href="chrome" style="text-decoration:none;">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <div class="chrome" on:click={() => routeTo("/chrome")}>
                         <img class="resizeimage" src = "chromelogo.png" alt = "chrome logo">
                         <p><span class="boxtext">Chrome</span></p>
-                      </a>
                 </div>
 
-                <div class="edge">
-                    <a href="edge" style="text-decoration:none;">
-                        <img class="resizeimage" src = "Microsoft_Edge_logo_(2019).png" alt = "Edge logo">
-                        <p><span class="boxtext">Edge</span></p>
-                      </a>
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <div class="edge" on:click={() => routeTo("/edge")}>
+                    <img class="resizeimage" src = "Microsoft_Edge_logo_(2019).png" alt = "Edge logo">
+                    <p><span class="boxtext">Edge</span></p>
                 </div>
 
-                <div class="firefox">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <div class="firefox" on:click={() => routeTo("/firefox")}>
                     <a href="firefox" style="text-decoration:none;">
                         <img class="resizeimage" src = "Firefox_logo,_2017.png" alt = "FireFox logo">
                         <p><span class="boxtext">Firefox</span></p>
                       </a>
                 </div>
 
-                <div class="brave">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <div class="brave" on:click={() => routeTo("/brave")}>
                     <a href="brave" style="text-decoration:none;">
                         <img class="resizeimage" src = "Brave_icon_lionface.png" alt = "Brave logo">
                         <p><span class="boxtext">Brave</span></p>
                       </a>
                 </div>
 
-                <div class="tor">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <div class="tor" on:click={() => routeTo("/tor")}>
                     <a href="tor" style="text-decoration:none;">
                         <img class="resizeimage" src = "tortransparent1.png" alt = "Tor logo">
                         <p><span class="boxtext">Tor</span></p>
                       </a>
                 </div>
 
-                <div class="retroarch">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <div class="retroarch" on:click={() => routeTo("/retroarch")}>
                     <a href="retroarch" style="text-decoration:none;">
                         <img class="resizeimage" src = "Retroarch2png.png" alt = "retroarch logo">
                         <p><span class="boxtext">RetroArch</span></p>
