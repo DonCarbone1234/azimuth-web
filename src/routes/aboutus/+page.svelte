@@ -1,11 +1,9 @@
 <style>
-/* Style the top navigation bar */
 .topnav {
       overflow: hidden;
       background-color: #333;
     }
     
-    /* Style the topnav links */
     .topnav a {
       float: left;
       display: block;
@@ -245,6 +243,7 @@
             
             <div class="leftbox1">
                 <div class = "image1">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
                     <img class ="milesresizeimage" src = "skinwalkermiles.png" alt = "A picture of Miles but he looks like a skinwalker">
                 </div>
                 <div class="topleftbox1">
@@ -260,6 +259,7 @@
                     <p><span class="minorwhite"> Marketing <br> Quality Assurance</span></p>
                 </div>
                 <div class = "image2">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
                     <img class ="resizeimage" src = "benwithcat.png" alt = "A picture of Ben with his cat">
                 </div>
             </div>
