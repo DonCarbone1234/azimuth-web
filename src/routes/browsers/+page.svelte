@@ -111,10 +111,12 @@
         border-radius: 25px;
         line-height: 50px;
         padding-bottom: 15px;
+        transition-duration: 0.5s;
     }
 
     .chrome:hover{
         background-color:#D3D3D3;
+        transition-duration: 0.5s;
     }
 
     .edge{
@@ -124,10 +126,12 @@
         border-radius: 25px;
         line-height: 50px;
         padding-bottom: 15px;
+        transition-duration: 0.5s;
     }
 
     .edge:hover{
         background-color:#D3D3D3;
+        transition-duration: 0.5s;
     }
 
     .firefox{
@@ -137,10 +141,12 @@
         border-radius: 25px;
         line-height: 50px;
         padding-bottom: 15px;
+        transition-duration: 0.5s;
     }
 
     .firefox:hover{
         background-color:#D3D3D3;
+        transition-duration: 0.5s;
     }
 
     .brave{
@@ -150,10 +156,12 @@
         border-radius: 25px;
         line-height: 50px;
         padding-bottom: 15px;
+        transition-duration: 0.5s;
     }
 
     .brave:hover {
         background-color:#D3D3D3;
+        transition-duration: 0.5s;
     }
 
     .tor{
@@ -163,10 +171,12 @@
         border-radius: 25px;
         line-height: 50px;
         padding-bottom: 15px;
+        transition-duration: 0.5s;
     }
 
     .tor:hover{
         background-color:#D3D3D3;
+        transition-duration: 0.5s;
     }
 
     .retroarch{
@@ -176,10 +186,12 @@
         border-radius: 25px;
         line-height: 50px;
         padding-bottom: 15px;
+        transition-duration: 0.5s;
     }
 
     .retroarch:hover {
         background-color:#D3D3D3;
+        transition-duration: 0.5s;
     }
 
 </style>
