@@ -9,4 +9,15 @@
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+
+	<staticContent>
+		<configuration>
+			<system.webServer>
+			   <staticContent>
+				  <remove fileExtension=".svg"/>
+				  <mimeMap fileExtension=".svg" mimeType="image/svg+xml" />
+			   </staticContent>
+			</system.webServer>
+		 </configuration>
+	</staticContent>
 </html>
