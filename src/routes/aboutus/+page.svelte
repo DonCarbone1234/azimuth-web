@@ -64,14 +64,14 @@
     }
 
     .minor {
-      font-size: 90px;
+      font-size: 110px;
       font-weight: normal;
       font-family: monospace;
       color: white;
     }
     
     .major {
-      font-size: 110px;
+      font-size: 130px;
       font-weight: 700px;
       font-family: monospace;
       color: white;
