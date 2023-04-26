@@ -201,7 +201,7 @@
             </div>
 
             <div class="topmiddletext">
-                <p style="color: white; font-size: 30px; font-wieght: normal;">The team behind Azimuth</p>
+                <p style="color: white; font-size: 40px; font-wieght: normal;">The team behind Azimuth</p>
             </div>
 
         </div>
