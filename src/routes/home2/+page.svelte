@@ -52,7 +52,7 @@
       display: flex;
       align-items: center;
       background-color: #4d526a;
-      background-image: url(blue4small.svg);
+      background-image: url(~/static/blue4small.svg);
       background-size: cover;
       background-attachment: fixed;
       align-content: center;
