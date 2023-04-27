@@ -3,6 +3,8 @@
     .topnav {
       overflow: hidden;
       background-color: #333;
+      position: sticky;
+      top: 0px;
     }
     
     /* Style the topnav links */
