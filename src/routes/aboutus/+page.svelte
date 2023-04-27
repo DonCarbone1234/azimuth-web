@@ -42,7 +42,7 @@
     }
 
     .topflexbox {
-        background-image: url("blue4small.svg");
+        background-image: url('https://raw.githubusercontent.com/DonCarbone1234/azimuth-web/main/static/blue4small.svg');
         background-color: #4d526a;
         background-size: cover;
         background-attachment: fixed;
@@ -87,7 +87,7 @@
 
     .flexbox2 {
     background-color: #1e1e1e;
-    background-image: url(whitemini1.svg);
+    background-image: url('https://raw.githubusercontent.com/DonCarbone1234/azimuth-web/main/static/whitemini1.svg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;

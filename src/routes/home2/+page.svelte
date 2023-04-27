@@ -52,7 +52,7 @@
       display: flex;
       align-items: center;
       background-color: #4d526a;
-      background-image: url(~/static/blue4small.svg);
+      background-image: url('https://raw.githubusercontent.com/DonCarbone1234/azimuth-web/main/static/blue4small.svg');
       background-size: cover;
       background-attachment: fixed;
       align-content: center;
@@ -72,7 +72,7 @@
 
     .flexbox2 {
     background-color: #1e1e1e;
-    background-image: url(whitemini1.svg);
+    background-image: url('https://raw.githubusercontent.com/DonCarbone1234/azimuth-web/main/static/whitemini1.svg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -144,7 +144,7 @@
 
     .orangetextbox {
     background-color: #111;
-    background-image: url(orange-1-mini.svg);
+    background-image: url('https://raw.githubusercontent.com/DonCarbone1234/azimuth-web/main/static/orange-1-mini.svg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;

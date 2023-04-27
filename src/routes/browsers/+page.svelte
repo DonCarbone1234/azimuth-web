@@ -62,7 +62,7 @@
 
     .mainflexbox {
         background-repeat: no-repeat;
-        background-image: url("orange-1-mini.svg");
+        background-image: url('https://raw.githubusercontent.com/DonCarbone1234/azimuth-web/main/static/orange-1-mini.svg');
         background-attachment: fixed;
         background-size: cover;
         display: flex;
