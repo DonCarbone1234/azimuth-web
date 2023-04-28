@@ -1,3 +1,7 @@
+<script>
+    import Bluebox from "../componenets/bluebox.svelte";
+</script>
+
 <style>
     
     .topnav {
@@ -199,6 +203,18 @@
             <a href="/aboutus">About Us</a>
         </div>
     
+
+        <Bluebox
+
+        toptitle = 'Welcome to'
+        topdesc = 'Azimuth'
+        middletext = 'Azimuth makes game secure browsing easy. We use a decentralized network to stream a browser of your choice to your pc, all while guaranteeing safety and high quality.'
+        
+
+
+        />
+
+
         <div class="testflex">
             <div class= "textbackground">
                 <div class="toptext1">
@@ -212,7 +228,7 @@
     
                  <div class="middletext1">
                      <p style="color: white; font-size: 30px; font-wieght: normal;">
-                         Azimuth makes game streaming easy. We use a decentralized network to stream games to and from your pc, all while guraenteeying safety and high quality.
+                        Azimuth makes game secure browsing easy. We use a decentralized network to stream a browser of your choice to your pc, all while guaranteeing safety and high quality.
                      </p>
                  </div>
     
