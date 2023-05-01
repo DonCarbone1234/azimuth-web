@@ -43,7 +43,6 @@
         .whitetextbackground {
             background-color: #eee;
             padding: 50px 60px;
-            max-width: 650px;
             width: 80%;
             max-width: 1100px;
             width: 100%;

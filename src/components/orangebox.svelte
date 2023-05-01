@@ -18,9 +18,13 @@
             </div>
                
             <div class="orangedescription">
-                 <p style="color: white; font-size: 30px; font-wieght: normal;">
-                    {middledesc}
-                </p>
+                <a href="/browsers">
+                    <button class = "button1">
+                        <p style="color:#434343ff; font-size: 60px; font-wieght: normal;">
+                            {middledesc}
+                        </p>
+                    </button>
+                </a>
             </div>
 
         </div>
@@ -54,9 +58,14 @@
     .orangebackground {
         background-color: #ff9b01;
         padding: 50px 60px;
-        max-width: 650px;
+        max-width: 1100px;
         width: 80%;
         border-radius: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
     }
 
     .major {
@@ -64,6 +73,20 @@
       font-weight: bold;
       font-family: monospace;
       color: white;
+    }
+
+    .button1 {
+        border-width: 0px;
+        border-radius: 25px;
+        font-family: monospace;
+        height: 200px;
+        width: 400px;
+        transition-duration: 0.5s;
+    }
+
+    .button1:hover{
+        background-color:#D3D3D3;
+        transition-duration: 0.5s;
     }
 
 </style>

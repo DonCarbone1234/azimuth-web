@@ -43,6 +43,7 @@
 
         .orangetextbackground {
         background-color: #eee;
+        max-width: 1500px;
         width: 80%;
         text-align: center;
         border-radius: 25px;

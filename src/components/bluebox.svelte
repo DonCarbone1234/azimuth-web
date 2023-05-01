@@ -54,7 +54,7 @@
     .textbackground {
         background-color: #383e59ff;
         padding: 50px 60px;
-        max-width: 650px;
+        max-width: 1100px;
         width: 80%;
         border-radius: 25px;
     }
